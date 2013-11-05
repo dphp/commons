@@ -1,0 +1,32 @@
+{
+    "name"          : "dphp/commons",
+    "version"       : "0.1.0",
+    "type"          : "library",
+    "description"   : "Commonly used interfaces and classes.",
+    "keywords"      : ["ddth", "dphp", "common", "commons"],
+    "homepage"      : "https://github.com/dphp/composer-utils",
+    "license"       : "LGPL-3.0+",
+    "authors"       : [
+        {
+            "name"      : "Thanh Ba Nguyen",
+            "email"     : "btnguyen2k@gmail.com",
+            "homepage"  : "https://github.com/btnguyen2k",
+            "role"      : "Developer, Project Founder"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.0",
+        "dphp/composer-utils": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dphp": "src/main/php/"
+        }
+    },
+    "scripts": {
+        "post-status-cmd": "\\Dphp\\ComposerUtils\\EclipsePdt::createPdt3Project"
+    }
+}
