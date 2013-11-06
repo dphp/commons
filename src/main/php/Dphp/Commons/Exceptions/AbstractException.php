@@ -28,7 +28,7 @@ namespace Dphp\Commons\Exceptions;
  * @version $Id$
  * @since Class available since v0.1
  */
-abstract class AbstractException extends Exception {
+abstract class AbstractException extends \Exception {
     
     /**
      * Constructs a new AbstractException object.
