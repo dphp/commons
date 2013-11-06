@@ -1,6 +1,6 @@
 {
     "name"          : "dphp/commons",
-    "version"       : "0.1.0",
+    "version"       : "0.2.0",
     "type"          : "library",
     "description"   : "Commonly used interfaces and classes.",
     "keywords"      : ["ddth", "dphp", "common", "commons"],
