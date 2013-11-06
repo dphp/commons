@@ -7,8 +7,7 @@
  *
  * COPYRIGHT: See COPYRIGHT.md
  *
- * @package Dphp
- * @subpackage Commons
+ * @package Commons
  * @author Thanh Ba Nguyen <btnguyen2k@gmail.com>
  * @copyright See COPYRIGHT.md
  * @license See LICENSE.md
@@ -20,8 +19,7 @@ namespace Dphp\Commons;
 /**
  * An abstract representation of file and directory pathnames.
  *
- * @package Dphp
- * @subpackage Commons
+ * @package Commons
  * @author Thanh Ba Nguyen <btnguyen2k@gmail.com>
  * @copyright See COPYRIGHT.md
  * @license See LICENSE.md
